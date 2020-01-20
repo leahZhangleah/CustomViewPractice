@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:cvp="http://schemas.android.com/apk/res-auto">
+
+    <com.example.ceciliahumlelu.customviewpractice.TagsLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/image_layout"
+        android:layout_margin="10dp"
+        cvp:tagHorizontalSpace="10dp"
+        cvp:tagVerticalSpace="10dp">
+
+    </com.example.ceciliahumlelu.customviewpractice.TagsLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="start"
+        android:id="@+id/start_anim_btn"/>
+    <com.example.ceciliahumlelu.customviewpractice.BouncingBall
+        android:id="@+id/bouncing_ball"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
